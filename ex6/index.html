@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 6</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <div class="navbar-nav">
+          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Dropdown</a>
+        </div>
+        <form class="search">
+          <input type="text" placeholder="Search" />
+          <button>Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <div id="carousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="banner">
+            <span>1920 x 530</span>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carousel"
+          data-bs-slide-to="2"
+        ></button>
+      </div>
+    </div>
+
+    <!-- Products -->
+    <div class="container products">
+      <h2>NEW PRODUCT</h2>
+      <p>List product description</p>
+
+      <div class="row">
+        <div class="col-3">
+          <div class="product">
+            <div class="product-image">280 x 280</div>
+            <div class="product-info">
+              <div>Product</div>
+              <div class="price">
+                <span class="old-price">100.000đ</span>
+                <span class="new-price">80.000đ</span>
+              </div>
+              <button class="cart">🛒</button>
+              <button class="detail">Xem chi tiết</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="product">
+            <div class="product-image">280 x 280</div>
+            <div class="product-info">
+              <div>Product</div>
+              <div class="price">
+                <span class="old-price">100.000đ</span>
+                <span class="new-price">80.000đ</span>
+              </div>
+              <button class="cart">🛒</button>
+              <button class="detail">Xem chi tiết</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="product">
+            <div class="product-image">280 x 280</div>
+            <div class="product-info">
+              <div>Product</div>
+              <div class="price">
+                <span class="old-price">100.000đ</span>
+                <span class="new-price">80.000đ</span>
+              </div>
+              <button class="cart">🛒</button>
+              <button class="detail">Xem chi tiết</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="product">
+            <span class="sale">Sale</span>
+            <div class="product-image">280 x 280</div>
+            <div class="product-info">
+              <div>Product</div>
+              <div class="price">
+                <span class="old-price">100.000đ</span>
+                <span class="new-price">80.000đ</span>
+              </div>
+              <button class="cart">🛒</button>
+              <button class="detail">Xem chi tiết</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

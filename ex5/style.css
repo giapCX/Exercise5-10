@@ -1,0 +1,323 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.exercise {
+  margin-bottom: 60px;
+}
+
+/* =================================
+   QUESTION 1 + QUESTION 3
+   ================================= */
+
+.grid-header {
+  background-color: #e9eef2;
+  padding: 35px 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.grid-header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.grid-box {
+  background-color: #d3d3d3;
+  border: 1px solid #999;
+  padding: 10px;
+  min-height: 45px;
+}
+
+.grid-footer {
+  background-color: #d8cccc;
+  text-align: center;
+  padding: 5px;
+  margin-top: 15px;
+  font-size: 24px;
+}
+
+/* =================================
+   QUESTION 2
+   ================================= */
+
+.bootstrap-header {
+  background-color: #e9eef2;
+  padding: 35px 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.bootstrap-header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.logo-row {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.logo-row img {
+  max-height: 160px;
+  object-fit: contain;
+}
+
+/* =================================
+   QUESTION 3
+   ================================= */
+
+.question3-nav {
+  margin-bottom: 20px;
+}
+
+/* =================================
+   QUESTION 4
+   ================================= */
+
+.simple-website {
+  text-align: center;
+}
+
+.website-header {
+  background-color: #f28c18;
+  padding-top: 10px;
+}
+
+.website-header img {
+  width: 300px;
+  max-width: 80%;
+  background-color: white;
+  padding: 10px;
+}
+
+.website-header nav {
+  padding: 6px;
+}
+
+.website-header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 8px;
+  font-size: 13px;
+}
+
+.website-content {
+  padding: 25px;
+}
+
+.website-content h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.website-content p {
+  font-size: 13px;
+}
+
+.website-footer {
+  background-color: #f5cf80;
+  color: white;
+  padding: 15px;
+}
+
+/* =================================
+   QUESTION 5
+   ================================= */
+
+.students-page {
+    width: 700px;
+    max-width: 100%;
+    margin: 30px auto;
+    background: white;
+}
+
+.students-header {
+    height: 100px;
+    background: #efd1ac;
+    border-bottom: 8px solid #f58220;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header-logo {
+    width: 110px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.header-logo img {
+    width: 75px;
+}
+
+.header-logo div {
+    color: #d76d2d;
+    font-size: 11px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 5px;
+    flex: 1;
+}
+
+.header-menu a {
+    color: #e77c3d;
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
+}
+
+.header-search label {
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.header-search input {
+    width: 145px;
+    height: 27px;
+    border: 1px solid #999;
+    padding: 3px 5px;
+    box-sizing: border-box;
+}
+
+.students-banner {
+    background: #ef7d20;
+    height: 230px;
+}
+
+.students-banner img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.students-breadcrumb {
+    font-size: 9px;
+    color: #999;
+    padding: 10px 15px 5px;
+}
+
+.students-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 8px 0 15px;
+}
+
+.students-list {
+    margin: 0 30px;
+}
+
+.student-card {
+    border: 1px solid #d5d5d5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.student-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.student-info {
+    padding: 10px 5px 12px;
+}
+
+.student-name {
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+
+.student-attendance {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 8px;
+    margin-bottom: 8px;
+}
+
+.student-attendance input {
+    width: 9px;
+    height: 9px;
+}
+
+.student-info button {
+    background: #f58220;
+    color: white;
+    border: 0;
+    font-size: 8px;
+    padding: 5px 15px;
+}
+.student-id {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.student-detail {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.students-footer {
+    position: relative;
+    height: 180px;
+    margin-top: 10px;
+    background: #ef7d32;
+    color: #222;
+    padding: 20px 30px;
+}
+
+.footer-address {
+    position: absolute;
+    left: 30px;
+    top: 18px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.footer-address h4 {
+    margin: 0 0 5px;
+    font-size: 20px;
+}
+
+.footer-address span {
+    color: #337ab7;
+}
+
+.footer-social {
+    position: absolute;
+    right: 30px;
+    top: 45px;
+    display: flex;
+    gap: 12px;
+    font-size: 25px;
+}
+
+.footer-copyright {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 16px;
+}

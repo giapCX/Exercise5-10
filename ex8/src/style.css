@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.booking-form {
+    width: 520px;
+    margin: 10px auto;
+    border: 1px solid #777;
+    padding: 10px 15px;
+}
+
+.alert-box {
+    height: 25px;
+    background: #fff3cd;
+    text-align: right;
+    padding-right: 8px;
+    color: #c9b36b;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 15px 0 8px;
+}
+
+.form-group {
+    margin-bottom: 8px;
+}
+
+.form-group > label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+.input-group {
+    display: flex;
+    height: 34px;
+    border: 1px solid #ddd;
+}
+
+.input-group span {
+    background: #eee;
+    padding: 7px 10px;
+    color: #999;
+}
+
+.input-group input {
+    flex: 1;
+    border: 0;
+    padding: 5px;
+}
+
+.address,
+select {
+    width: 100%;
+    height: 34px;
+    border: 1px solid #ddd;
+}
+
+.location {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.location label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+.box {
+    display: block;
+    font-size: 12px;
+    margin: 3px 0;
+}
+
+.box input {
+    margin-right: 5px;
+}
+
+small {
+    display: block;
+    color: #999;
+    font-size: 10px;
+}
+
+.submit {
+    width: 100%;
+    height: 36px;
+    border: 0;
+    background: #087df5;
+    color: white;
+}
